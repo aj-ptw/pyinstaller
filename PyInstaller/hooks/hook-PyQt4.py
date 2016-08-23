@@ -28,7 +28,7 @@ hiddenimports = ['sip']
 # For Qt to work on Mac OS X it is necessary to include directory qt_menu.nib.
 # This directory contains some resource files necessary to run PyQt or PySide
 # app.
-if is_darwin:
-    datas = [
-        (qt_menu_nib_dir('PyQt4'), ''),
-    ]
+# if is_darwin:
+    # datas = [
+        # (qt_menu_nib_dir('PyQt4'), ''),
+    # ]
